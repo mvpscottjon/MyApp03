@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FF0B131F035CB30008B3EF /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 14FF0B121F035CB30008B3EF /* images (1).png */; };
+		14FF0B151F035DC50008B3EF /* practiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FF0B141F035DC50008B3EF /* practiceVC.swift */; };
 		CE0354801EF8C3D900180F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03547F1EF8C3D900180F5A /* AppDelegate.swift */; };
 		CE0354821EF8C3D900180F5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0354811EF8C3D900180F5A /* ViewController.swift */; };
 		CE0354851EF8C3D900180F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0354831EF8C3D900180F5A /* Main.storyboard */; };
@@ -14,11 +16,12 @@
 		CE0354921EF8D24B00180F5A /* SevenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0354911EF8D24B00180F5A /* SevenAPI.swift */; };
 		CE0354941EF8EB8300180F5A /* BradAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0354931EF8EB8300180F5A /* BradAPI.swift */; };
 		CE0354BC1EF904FE00180F5A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0354BB1EF904FE00180F5A /* WelcomeViewController.swift */; };
-		CE0354BF1EF9069000180F5A /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE0354BE1EF9069000180F5A /* images (1).jpeg */; };
 		CE0354C41EF90B3900180F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0354C31EF90B3900180F5A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14FF0B121F035CB30008B3EF /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images (1).png"; path = "../../../Downloads/images (1).png"; sourceTree = "<group>"; };
+		14FF0B141F035DC50008B3EF /* practiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = practiceVC.swift; sourceTree = "<group>"; };
 		CE03547C1EF8C3D900180F5A /* MyApp03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE03547F1EF8C3D900180F5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0354811EF8C3D900180F5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +31,6 @@
 		CE0354911EF8D24B00180F5A /* SevenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenAPI.swift; sourceTree = "<group>"; };
 		CE0354931EF8EB8300180F5A /* BradAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BradAPI.swift; sourceTree = "<group>"; };
 		CE0354BB1EF904FE00180F5A /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
-		CE0354BE1EF9069000180F5A /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images (1).jpeg"; path = "../../../Downloads/images (1).jpeg"; sourceTree = "<group>"; };
 		CE0354C31EF90B3900180F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 				CE03548B1EF8C3D900180F5A /* Info.plist */,
 				CE0354911EF8D24B00180F5A /* SevenAPI.swift */,
 				CE0354931EF8EB8300180F5A /* BradAPI.swift */,
+				14FF0B141F035DC50008B3EF /* practiceVC.swift */,
 			);
 			path = MyApp03;
 			sourceTree = "<group>";
@@ -79,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0354C31EF90B3900180F5A /* Assets.xcassets */,
-				CE0354BE1EF9069000180F5A /* images (1).jpeg */,
+				14FF0B121F035CB30008B3EF /* images (1).png */,
 			);
 			name = imgs;
 			sourceTree = "<group>";
@@ -145,9 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE03548A1EF8C3D900180F5A /* LaunchScreen.storyboard in Resources */,
+				14FF0B131F035CB30008B3EF /* images (1).png in Resources */,
 				CE0354851EF8C3D900180F5A /* Main.storyboard in Resources */,
 				CE0354C41EF90B3900180F5A /* Assets.xcassets in Resources */,
-				CE0354BF1EF9069000180F5A /* images (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +166,7 @@
 				CE0354801EF8C3D900180F5A /* AppDelegate.swift in Sources */,
 				CE0354921EF8D24B00180F5A /* SevenAPI.swift in Sources */,
 				CE0354941EF8EB8300180F5A /* BradAPI.swift in Sources */,
+				14FF0B151F035DC50008B3EF /* practiceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
